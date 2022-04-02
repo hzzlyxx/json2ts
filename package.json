@@ -1,0 +1,36 @@
+{
+  "name": "@hzzlyxx/json2ts",
+  "version": "1.0.0",
+  "description": "json转ts接口类型",
+  "author": "hzzly <hjingren@aliyun.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "keywords": [
+    "TypeScript",
+    "json2ts"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": " rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzzlyxx/json2ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hzzlyxx/json2ts/issues"
+  },
+  "homepage": "https://github.com/hzzlyxx/json2ts#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "typescript": "^4.6.3"
+  }
+}

@@ -1,1 +1,1 @@
-# -json2ts
+# json2ts
