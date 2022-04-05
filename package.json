@@ -15,8 +15,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "npm run clean && tsc",
-    "clean": " rm -rf lib"
+    "dev": "tsc && vite build --watch",
+    "build": "tsc && vite build"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.6",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "vite": "^2.8.0"
   }
 }

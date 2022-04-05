@@ -1,19 +1,17 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
-    "target": "ES6",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "node",
-    "declaration": true,
-    "skipLibCheck": true,
-    "lib": [
-      "DOM",
-      "ESNext",
-    ],
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
   },
-  "include": ["./src"],
-  "exclude": [
-    "node_modules",
-    "example"
-  ]
+  "include": ["src"]
 }

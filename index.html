@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite SDK</title>
+</head>
+
+<body>
+  <div id="app">Vite SDK</div>
+  <script src="./lib/json2ts.umd.js"></script>
+  <script>
+
+    const jsonStr = JSON.stringify({
+      // This is a name key
+      name: "bengbeng", // His name is bengbeng
+      age: 20, // This is his age
+      interest: ['swim', 'football', '22'],
+      interest3: [[['swim', 'football', '22']], [1, 2, 3]],
+      interes2t: ['swim', 'football', 22, [1], { name: 'hzzly' }],
+      girl_friend: {
+        name: "qiaqia",
+        age: 18,
+        "exboy_friend": [
+          {
+            name: "uzzz",
+            age: 40
+          }
+        ]
+      }
+    });
+
+    console.log(json2ts(jsonStr));
+
+    // a();
+  </script>
+</body>
+
+</html>
