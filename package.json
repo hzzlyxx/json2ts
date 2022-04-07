@@ -1,6 +1,6 @@
 {
   "name": "@hzzlyxx/json2ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "json转ts接口类型",
   "author": "hzzly <hjingren@aliyun.com>",
   "license": "MIT",
@@ -8,8 +8,11 @@
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
   "keywords": [
-    "TypeScript",
-    "json2ts"
+    "json2ts",
+    "jsontots",
+    "json",
+    "typescript",
+    "ts"
   ],
   "files": [
     "lib"
